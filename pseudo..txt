@@ -1,0 +1,17 @@
+- prompt the user for info about their README
+    - use inquirer package to prompt user to answer our questions
+        - store our questions in an array
+    - prompt user to input title, description, installation, usage, contribution, and test instructions, and display these under their sections
+    - prompt user to choose a license from a list of options
+        - generate a badge for the license, add it near the top
+        - Badge link from https://shields.io/category/license
+    - prompt user to enter their GitHub username and display under questions section
+    - prompt user to enter their email, display under questions section
+
+- take the users answers and save them
+    - use writeToFile to generate(name of README.md, and the data)
+-put the users answers into the markdown template
+    -make the markdown template and plug in the users answers
+        - Include a table of contents that links to the sections
+        - Include link to github and plugin the users username
+        - template literal to plugin info for the README
