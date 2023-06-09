@@ -1,5 +1,6 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
+const sample = require ('./sample.js');
 
 inquirer
     .prompt([
@@ -28,4 +29,14 @@ inquirer
             message: 'What is the title of your project?',
             name: 'contribution',
         },
-    ])
+        {
+            type: 'input',
+            message: 'What is the title of your project?',
+            name: 'github',
+        },
+        {
+            type: 'input',
+            message: 'What is the title of your project?',
+            name: 'email',
+        },
+])
