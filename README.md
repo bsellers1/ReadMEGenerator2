@@ -1,22 +1,22 @@
 
-    # bacon
+# ReadME Generator
 
-    ## Description
-    bacon  
+## Description
+This project will help me in future projects hence why I am excited to create this project.  
     
-    ## Installation
-    install 
+## Installation
+Clone the repo, navigate to the repo in your directory, then install the dependencies. 
     
-    ## Usage
-    use
+## Usage
+Open the terminal by right clicking the project and choosing "Open in intergrated terminal" and then type in "node index.js" and enter your information.
     
-    ## Contribution
-    me
+## Contribution
+This was project was done by myself.
     
-    ## Contact
-    Contact email: me GitHub: me)
+## Contact
+Contact email: bsellers3013@gmail.com GitHub: https://github.com/bsellers1
     
     
-    ## License
-    Eclipse
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
     
