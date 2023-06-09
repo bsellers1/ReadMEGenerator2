@@ -11,37 +11,38 @@ inquirer
         },
         {
             type: 'input',
-            message: 'What is the title of your project?',
+            message: 'Describe your project.',
             name: 'description',
         },
         {
-            type: 'input',
-            message: 'What is the title of your project?',
+            type: 'list',
+            message: 'What license do you need?',
+            choices: ['MIT', 'Apache', 'Eclipse', 'GNU'],
             name: 'license',
         },
         {
             type: 'input',
-            message: 'What is the title of your project?',
+            message: 'How would one install your project?',
             name: 'installation',
         },
         {
             type: 'input',
-            message: 'What is the title of your project?',
+            message: 'How would one use the project?',
             name: 'usage',
         },
         {
             type: 'input',
-            message: 'What is the title of your project?',
+            message: 'Contribution information for your project?',
             name: 'contribution',
         },
         {
             type: 'input',
-            message: 'What is the title of your project?',
+            message: 'What is your GitHub username?',
             name: 'github',
         },
         {
             type: 'input',
-            message: 'What is the title of your project?',
+            message: 'What is your email address?',
             name: 'email',
         },
 ])
