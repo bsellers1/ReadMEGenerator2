@@ -1,4 +1,4 @@
-function sample({title, description, installation, usage, contribution, github, email}) {
+function sample({title, description, license, installation, usage, contribution, github, email}) {
     return `
     # ${title}
 
