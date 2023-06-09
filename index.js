@@ -17,6 +17,11 @@ inquirer
         {
             type: 'input',
             message: 'What is the title of your project?',
+            name: 'license',
+        },
+        {
+            type: 'input',
+            message: 'What is the title of your project?',
             name: 'installation',
         },
         {
@@ -40,3 +45,8 @@ inquirer
             name: 'email',
         },
 ])
+.then(function ({ title, description, license, installation, usage, contribution, github, email }) {
+    fs.writeFile('./README.md', sample({ title, description, license, installation, usage, contribution, github, email }), err => {
+        err ? console.log(err) : console.log('README file created successfully!');
+    });
+});
