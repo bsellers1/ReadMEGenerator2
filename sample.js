@@ -1,26 +1,32 @@
-function sample({title, description, license, installation, usage, contribution, github, email}) {
-    return `
-    # ${title}
+function sample({ title, description, license, installation, usage, contribution, github, email }) {
+return `# ${title}
 
-    ## Description
-    ${description}  
+## Description
+- ${description}  
     
-    ## Installation
-    ${installation} 
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contribution](#contribution)
+- [Contact](#contact)
+- [License](#license)
+
+## Installation
+- ${installation} 
     
-    ## Usage
-    ${usage}
+## Usage
+- ${usage}
     
-    ## Contribution
-    ${contribution}
+ ## Contribution
+- ${contribution}
     
-    ## Contact
-    Contact email: ${email} GitHub: ${github})
-    
-    
-    ## License
-    ${license}
+## Contact
+- Contact email: ${email} 
+- GitHub: ${github}
+
+## License
+- ${license}
     `;
-    }
+}
 
 module.exports = sample;
